@@ -1,0 +1,41 @@
+.hero{
+    /* height: 1000px; */
+    min-height: 650px; 
+    width: 100%;
+
+    background-position: center;
+    /* object-fit: cover; */
+        /* object-fit: contain; */
+
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    display: block;
+    /* background-attachment: fixed; */
+    background-position: 50% 50%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* height: 100vh; */
+  }
+  /* .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  /* .hero::after {
+      content: "";
+      display: block;
+      opacity: .4;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: black;
+    } */
+  
+    .hero * {
+      position: relative;
+      z-index: 2;
+    }
+    
