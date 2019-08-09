@@ -10,6 +10,7 @@
 }  
 h3 {
   float:center;
+  padding-top: 30px;
 }
 .footer span {
   bottom: 0;
@@ -18,7 +19,7 @@ h3 {
   padding: 3px;
   position: absolute;
   /* color: black; */
-  background-color:#c27d3d; 
+  background-color:#ffbe61; 
 }
 .logo {
   display: inline-block;
